@@ -48,7 +48,7 @@ public class EmployeeController {
     ){
        employeeService.deleteEmployee(id);
 
-        return new ResponseEntity<>("success", HttpStatus.OK);
+        return new ResponseEntity<>("created", HttpStatus.OK);
     }
 
     @PutMapping
